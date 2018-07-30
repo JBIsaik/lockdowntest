@@ -4,7 +4,7 @@ from discord.ext.commands import Bot
 import random
 
 Client = discord.Client()
-bot = commands.Bot(command_prefix="!")
+bot = commands.Bot(command_prefix="$")
 lines = open(r'spotify.txt').read().splitlines()
 
 @bot.event
