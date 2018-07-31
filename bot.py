@@ -27,7 +27,7 @@ async def uplay(ctx):
     embed.set_thumbnail(url="https://pre00.deviantart.net/3d13/th/pre/i/2016/343/0/7/free_minecraft_logo_template_by_curtzeninja-dar2dou.png")
     embed.add_field(name="Email:", value=split[0], inline=False)
     embed.add_field(name="Password:", value=split[2], inline=False)
-    embed.add_footer(name="Mady By JBTech")
+    embed.set_footer(name="Mady By JBTech")
     await bot.send_message(ctx.message.author, embed=embed)
     
 
