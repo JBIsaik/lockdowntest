@@ -12,7 +12,7 @@ async def on_ready():
     print("The bot is online!")
     await bot.change_presence(game=discord.Game(name='Type $uplay'))
 
-@commands.cooldown(1, 300, commands.BucketType.user)
+@commands.cooldown(1, 10, commands.BucketType.user)
 @bot.command(pass_context=True)
 async def uplay(ctx):
     userName = ctx.message.author.name
