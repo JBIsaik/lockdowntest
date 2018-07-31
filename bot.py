@@ -27,6 +27,6 @@ async def uplay(ctx):
     embed.add_field(name="Password:", value=split[2], inline=False)
     await bot.send_message(ctx.message.author, embed=embed)
 
-    print("{} Typed !gen".format(userName))
+    print("{} Typed $uplay".format(userName))
 
 bot.run("NDcyMzU0NjA0ODMxNzM1ODE4.Dj3LlQ.Uq7P7i9IaSZ7fNBocU0-_za1tbM")
