@@ -18,6 +18,7 @@ async def uplay(ctx):
     userID = ctx.message.author.id
 
     if ctx.message.server:
+        await bot.delete_message(ctx.message)
     myline = random.choice(lines)
     split = myline.partition(":")
     
