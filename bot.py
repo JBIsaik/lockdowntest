@@ -32,4 +32,4 @@ async def uplay(ctx):
 
         client = discord.Client()
 
-bot.run("NDcyMzU0NjA0ODMxNzM1ODE4.Dj3LlQ.Uq7P7i9IaSZ7fNBocU0-_za1tbM")
+bot.run("NDcyMzQyOTIzMzU5NDIwNDE2.DkIpaQ.wVSLYRd69L0U3slkUwW-rHIPURo")
